@@ -1,0 +1,105 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 span {
+    font-weight: 600;
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.task-input input,
+.task-input select,
+.task-input button {
+    margin: 10px;
+    padding: 10px;
+}
+
+#task-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#task-table th, #task-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+#task-table th {
+    background-color: #f1f1f1;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+.complete-btn {
+    background-color: #ff9800; /* Orange */
+}
+
+.edit-btn {
+    background-color: #4CAF50; /* Green */
+}
+
+.delete-btn {
+    background-color: #f44336; /* Red */
+}
+
+.save-btn {
+    background-color: #007bff; /* Blue */
+}
+
+.completed {
+    background-color: #d3ffd3;
+}
+
+footer {
+   /* position: fixed; Keeps the footer at the bottom */
+   bottom: 0; /* Aligns it to the bottom of the viewport */
+   left: 0; /* Stretches from the left */
+   width: 100%; /* Ensures it spans the full width */
+   background-color: #f1f1f1; /* Light gray for a subtle appearance */
+   color: #666; /* Soft gray text for readability */
+   text-align: center; /* Centers the text */
+   font-size: 0.8rem; /* Small font size */
+   padding: 10px 0; /* Space around the text */
+   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow above footer */
+   z-index: 100; /* Keeps it above other elements */
+
+}
