@@ -1,4 +1,4 @@
-This iss a complete To-Do List Web Application called LIST-IFY that helps users manage their tasks efficiently by allowing them to add, prioritize, edit, and delete tasks.
+This is a complete To-Do List Web Application called LIST-IFY that helps users manage their tasks efficiently by allowing them to add, prioritize, edit, and delete tasks.
 It is built using HTML, CSS, and JavaScript, with functionality to dynamically update the task list and support a light/dark theme toggle for better usability.
 
 The To-Do List application was enhanced to include persistent data storage using localStorage, allowing tasks and their states (completed or pending) to persist even after the browser is closed or refreshed.
