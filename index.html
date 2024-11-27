@@ -1,96 +1,20 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LIST-IFY | Task Manager</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <script defer src="script.js"></script>
-</head>
-
-<body>
-
-    <header>
-        <div class="container">
-            <h1><span>LIST-IFY</span> 📝 </h1>
-            <button id="theme-toggle" title="Toggle Light/Dark Mode">
-                🌙
-            </button>
-        </div>
-    </header>
-
-  
-    <main>
-        <section class="task-input">
-            <h2>Add Your Tasks</h2>
-            <div class="input-container">
-                <input type="text" id="task-input" placeholder="Enter your task..." >
-                <select id="priority">
-                    <option value="1">🔥High</option>
-                    <option value="2">⚡ Medium</option>
-                    <option value="3">🌱Low</option>
-                </select>
-                <button id="add-task">➕ Add Task</button>
-            </div>
-        </section>
-
-        <section class="task-table-section">
-            <h3>Your Tasks</h3>
-            <table id="task-table">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Task</th>
-                        <th>Priority</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Tasks will be dynamically added here -->
-                    
-                </tbody>
-            </table>
-        </section>
-
-        <section class="task-stats">
-            <p id="task-summary">
-                <span id="completed-tasks">0</span> Completed | <span id="pending-tasks">0</span> Pending
-            </p>
-        </section>
-    </main>
-
-    <!-- Footer Section -->
-    <footer>
-        <p>Made with 💻 by Coding BRUS Team | &copy; 2024 List-ify</p>
-    </footer>
-</body>
-
-</html> -->
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LIST-IFY | Task Manager</title>
+    <title>LIST-IFY | Enhanced Task Manager</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <script defer src="script.js"></script>
 </head>
 
 <body>
-
     <header>
         <div class="container">
             <h1><span>LIST-IFY</span> 📝 </h1>
-            <button id="theme-toggle" title="Toggle Light/Dark Mode">
-                🌙
-            </button>
+            <button id="theme-toggle" title="Toggle Light/Dark Mode">🌙</button>
         </div>
     </header>
 
@@ -98,11 +22,11 @@
         <section class="task-input">
             <h2>Add Your Tasks</h2>
             <div class="input-container">
-                <input type="text" id="task-input" placeholder="Enter your task..." >
+                <input type="text" id="task-input" placeholder="Enter your task...">
                 <select id="priority">
-                    <option value="1">🔥High</option>
+                    <option value="1">🔥 High</option>
                     <option value="2">⚡ Medium</option>
-                    <option value="3">🌱Low</option>
+                    <option value="3">🌱 Low</option>
                 </select>
                 <button id="add-task">➕ Add Task</button>
             </div>
@@ -119,9 +43,7 @@
                         <th>Actions</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <!-- Tasks will be dynamically added here -->
-                </tbody>
+                <tbody></tbody>
             </table>
         </section>
 
@@ -132,10 +54,8 @@
         </section>
     </main>
 
-    <!-- Footer Section -->
     <footer>
         <p>Made with 💻 by Coding BRUS Team | &copy; 2024 List-ify</p>
     </footer>
 </body>
-
 </html>
